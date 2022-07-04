@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{9F001207-797C-4072-AB41-E886A5AB5B09}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>R3L4MP4G0_M4RQU1NH05</RootNamespace>
-    <AssemblyName>R3L4MP4G0 M4RQU1NH05</AssemblyName>
+    <RootNamespace>ArcticAutoclicker</RootNamespace>
+    <AssemblyName>ArcticAutoclicker</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -113,6 +113,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -124,7 +125,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="R3L4MP4G0 M4RQU1NH05_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
