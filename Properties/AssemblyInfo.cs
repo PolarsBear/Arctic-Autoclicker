@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("R3L4MP4G0 M4RQU1NH05")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Arctic Autoclicker")]
+[assembly: AssemblyDescription("An autoclicker made with MetroFramework, looks nice, clicks fast")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("R3L4MP4G0 M4RQU1NH05")]
+[assembly: AssemblyProduct("Arctic Autoclicker")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
