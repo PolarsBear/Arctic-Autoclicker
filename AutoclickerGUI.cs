@@ -222,6 +222,9 @@ namespace ArcticAutoclicker
             {
                 i.InternalStyleManager.Style = Style;
             }
+
+            Tooltips.SetToolTip(keybind, "Click to change keybind");
+            Tooltips.SetToolTip(lightDarkSwitch, "Toggle between light and dark themes");
         }
     }
 }

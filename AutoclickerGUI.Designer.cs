@@ -41,6 +41,7 @@ namespace ArcticAutoclicker
             this.lightDarkSwitch = new MetroFramework.Controls.MetroToggle();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.VersionText = new MetroFramework.Controls.MetroLabel();
+            this.Tooltips = new MetroFramework.Components.MetroToolTip();
             this.SuspendLayout();
             // 
             // onBtn
@@ -191,6 +192,7 @@ namespace ArcticAutoclicker
         private MetroFramework.Controls.MetroToggle lightDarkSwitch;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroLabel VersionText;
+        private MetroFramework.Components.MetroToolTip Tooltips;
     }
 }
 
