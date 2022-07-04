@@ -31,23 +31,25 @@ namespace ArcticAutoclicker
             }
         }
 
+        public static string path = @"SOFTWARE\PolarsBear\ArcticAutoclicker";
+
         public static RegistryKey CreateIfDoesntExist()
         {
-            if (Registry.CurrentUser.OpenSubKey(@"SOFTWARE\M4RQU1NH05") == null)
+            if (Registry.CurrentUser.OpenSubKey(path) == null)
             {
-                return Registry.CurrentUser.CreateSubKey(@"SOFTWARE\M4RQU1NH05");
+                return Registry.CurrentUser.CreateSubKey(path);
             }
             else
             {
-                return Registry.CurrentUser.OpenSubKey(@"SOFTWARE\M4RQU1NH05", true);
+                return Registry.CurrentUser.OpenSubKey(path, true);
             }
         }
 
         public static Settings GetSettings()
         {
-            if (Registry.CurrentUser.OpenSubKey(@"SOFTWARE\M4RQU1NH05") != null)
+            if (Registry.CurrentUser.OpenSubKey(path) != null)
             {
-                return new Settings(Registry.CurrentUser.OpenSubKey(@"SOFTWARE\M4RQU1NH05"));
+                return new Settings(Registry.CurrentUser.OpenSubKey(path));
             }
 
             return new Settings(true);
