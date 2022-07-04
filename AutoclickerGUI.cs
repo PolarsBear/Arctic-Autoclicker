@@ -34,7 +34,7 @@ namespace ArcticAutoclicker
         Keys currentKeybind = Keys.F6;
         KeysConverter keyConverter = new KeysConverter();
 
-        Version v = new Version(1,3);
+        Version v = new Version(1,7);
 
 
         bool _active;
