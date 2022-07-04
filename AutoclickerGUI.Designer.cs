@@ -45,25 +45,25 @@ namespace ArcticAutoclicker
             // 
             // onBtn
             // 
-            this.onBtn.Location = new System.Drawing.Point(12, 306);
+            this.onBtn.Location = new System.Drawing.Point(24, 316);
             this.onBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.onBtn.Name = "onBtn";
-            this.onBtn.Size = new System.Drawing.Size(92, 50);
+            this.onBtn.Size = new System.Drawing.Size(67, 40);
             this.onBtn.Style = MetroFramework.MetroColorStyle.Blue;
             this.onBtn.TabIndex = 1;
-            this.onBtn.Text = "Ligar";
+            this.onBtn.Text = "On";
             this.onBtn.Click += new System.EventHandler(this.onBtn_Click);
             // 
             // offBtn
             // 
             this.offBtn.Enabled = false;
-            this.offBtn.Location = new System.Drawing.Point(110, 306);
+            this.offBtn.Location = new System.Drawing.Point(97, 316);
             this.offBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.offBtn.Name = "offBtn";
-            this.offBtn.Size = new System.Drawing.Size(92, 50);
+            this.offBtn.Size = new System.Drawing.Size(68, 40);
             this.offBtn.Style = MetroFramework.MetroColorStyle.Blue;
             this.offBtn.TabIndex = 2;
-            this.offBtn.Text = "Desligar";
+            this.offBtn.Text = "Off";
             this.offBtn.Click += new System.EventHandler(this.offBtn_Click);
             // 
             // metroLabel1
@@ -71,10 +71,10 @@ namespace ArcticAutoclicker
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(24, 84);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(89, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(81, 19);
             this.metroLabel1.Style = MetroFramework.MetroColorStyle.Blue;
             this.metroLabel1.TabIndex = 4;
-            this.metroLabel1.Text = "Intervalo (ms)";
+            this.metroLabel1.Text = "Interval (ms)";
             this.metroLabel1.UseStyleColors = true;
             // 
             // interval
@@ -120,7 +120,7 @@ namespace ArcticAutoclicker
             // 
             this.lightDarkSwitch.AutoSize = true;
             this.lightDarkSwitch.DisplayStatus = false;
-            this.lightDarkSwitch.Location = new System.Drawing.Point(220, 329);
+            this.lightDarkSwitch.Location = new System.Drawing.Point(205, 328);
             this.lightDarkSwitch.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lightDarkSwitch.Name = "lightDarkSwitch";
             this.lightDarkSwitch.Size = new System.Drawing.Size(50, 17);
@@ -135,7 +135,7 @@ namespace ArcticAutoclicker
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(212, 306);
+            this.metroLabel3.Location = new System.Drawing.Point(197, 305);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(69, 19);
             this.metroLabel3.Style = MetroFramework.MetroColorStyle.Blue;
