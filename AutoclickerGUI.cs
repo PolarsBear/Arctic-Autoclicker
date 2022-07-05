@@ -34,7 +34,7 @@ namespace ArcticAutoclicker
         Keys currentKeybind = Keys.F6;
         KeysConverter keyConverter = new KeysConverter();
 
-        Version v = new Version(1,7);
+        Version v = new Version(1,8);
 
 
         bool _active;
@@ -108,6 +108,10 @@ namespace ArcticAutoclicker
                 else
                 {
                     pressed = false;
+                }
+                if (interval.Text != "")
+                {
+                    intervalTime = int.Parse(interval.Text);
                 }
                 Thread.Sleep(5);
             }
@@ -203,7 +207,7 @@ namespace ArcticAutoclicker
 
         private void interval_Validated(object sender, EventArgs e)
         {
-            intervalTime = int.Parse(interval.Text);
+            
         }
 
         
